@@ -27,4 +27,6 @@ $(function() {
   }).mouseup(function() {
     clearInterval(action);
   });
+
+
 });
