@@ -13,4 +13,8 @@ class BreakfastApp < Sinatra::Base
   get '/recommend' do
     erb :recommend
   end
+
+  get '/checkout' do
+    erb :checkout
+  end
 end
